@@ -72,14 +72,14 @@ const App = () => {
   return (
     <div className="app">
       <section className="search-section">
-      <div className="img-container">
+      <div className="image-container">
           {image && <img src={URL.createObjectURL(image)}></img>}
           </div>
           <p className="extra-info">
             <span>
-              <label htmlFor="file">upload an image</label>
+              <label htmlFor="file">upload an image </label>
             <input onChange={uploadImage} id="file" accept="image/*" type="file" hidden />
-             to ask questions about.
+            to ask questions about
             </span>
           </p>
           <p>What do you want to know about the image?
